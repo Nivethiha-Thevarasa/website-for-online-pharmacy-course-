@@ -11,9 +11,12 @@ header {
     padding: 1px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
+.active{
+    list-style: none;
+	font-family: serif;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
 	
 }
 nav a {
