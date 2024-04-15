@@ -162,7 +162,7 @@ nav.before .active-element{
     box-shadow: 2px 2px 5px rgb(177,177,177),2px 2px 5px rgb(177,177,177);
     transition: 0.3s ease-in-out;
     width: 300px;
-    height: 400px;
+    height: 700px;
 }
 .online-box:hover{
     box-shadow: 0px 5px 15px #bdbdbd;
