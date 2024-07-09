@@ -3,72 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact Us</title>
-    <style>
-        h2{
-            color: rgb(16, 16, 70);
-        }
-        img.background {
-			  width: 100%;
-			  height: 800px;
-			  position: fixed;
-			  left: 0px;
-			  top: 0px;
-			  z-index: -1;
-			  
-		}
-        .contact-info {
-            color: rgb(36, 132, 151);
-            margin: 5px;
-        }
+    <title>contact</title>
 
-        .content {
-            margin: 5px;
-        }
-        h2{
-            color: rgb(36, 132, 151); 
-        }
-        .btn{
-            color: red;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 15px;
-            font-size: 35px;
-        }
-    </style>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <header class="pharmacy">
-        <h1>Online Pharmacy Course</h1>
-        <nav>
-            <ul class="active">
-                <li class="link"><a href="index.html"> Home </a> </li>
-                <li class="link"><a href="courses.html"> Courses </a> </li>
-                <li class="link"><a href="contact.html"> Contact </a></li>
-				<li class="link"><a href="about.html"> About Us </a> </li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="content">
-        <img src="contact1.png"class="background">
-        <h2>Contact Us</h2>
-        <p>Have questions? Get in touch with us through the following contact information.</p>
+<header>
 
-        <ul class="contact-info">
-            
-                <li>Email: <a href="mailto:info@pharmacycourse.com">info@pharmacycourse.com</a></li><br>
-                <li>Phone: +1 (123) 456-7890 </li><br>
-                <li>Address: 123 Pharmacy Street, Cityville, Jaffna </li><br>
-                <li>Hours of Operation: Monday - Friday: 9am - 5pm , Saturday: 10am - 2pm </li><br>
-        </ul>
-        <div> 
-            <p class="btn"> Sunday: Closed!!!!! </p>
+    <a href="#" class="logo">Smart<span>Study</span></a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="service.html">service</a>
+        <a href="review.html">review</a>
+        <a href="certificate.html">certificate</a>
+    </nav>
+
+</header>
+
+<h1 class="heading">contact us</h1>
+
+<!-- contact section  -->
+
+<section class="contact">
+
+<div class="image">
+    <img src="images/contact-img.svg" alt="contact">
+</div>
+
+<form action="">
+
+    <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+    </div>
+
+    <input type="text" placeholder="subject" class="box">
+
+    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+    <input type="submit" class="btn" value="send">
+
+</form>
+
+</section>
+<div>
+    <!-- footer section  -->
+    
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>about us</h3>
+                <p>Learn about our mission, vision and the team behind our online pharmacy courses. </p>
+            </div>
+    
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="home.html">Home</a>
+                <a href="service.html">service</a>
+                <a href="about.html">About</a>
+                <a href="review.html">Review</a>
+                <a href="contact.html">Contact</a>
+                <a href="certificate.html">certificate</a>
+            </div>
+    
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100071263440090&mibextid=ZbWKwL">facebook</a>
+                <a href="https://www.instagram.com/nivethi_12?igsh=MXJucnMzcGs2dmUwZw==">instagram</a>
+                <a href="https://www.linkedin.com/in/nivethihathevarasa/">linkedin</a>
+                <a href="https://github.com/Nivethiha-Thevarasa">Github</a>
+            </div>
+    
         </div>
+    
+        <div class="credit"> created by <span> Nivethiha Thevarasa</span> | all rights reserved </div>
+    
     </section>
-
-    <footer>
-        <p>&copy; 2024 Online Pharmacy Course</p>
-    </footer>
-</body>
-</html>
+    </div>
+    
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    
+    </body>
+    </html>
