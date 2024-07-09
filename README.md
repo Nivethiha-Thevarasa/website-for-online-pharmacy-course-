@@ -12,9 +12,6 @@ SmartStudy offers a robust platform for individuals looking to enhance their ski
 - **CSS3**: Styling and layout design.
 - **JavaScript**: Interactive elements and dynamic behavior.
 
-## Screenshot 📸
-
-![Home]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot (68).png")
 
 ## Key Features 🔍
 
